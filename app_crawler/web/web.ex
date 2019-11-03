@@ -37,6 +37,7 @@ defmodule AppCrawler.Web do
       import AppCrawler.Router.Helpers
       import AppCrawler.Gettext
       import AppCrawler.Crawler
+      import AppCrawler.CategoryHelper
     end
   end
 
