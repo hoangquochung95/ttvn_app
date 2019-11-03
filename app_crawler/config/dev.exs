@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :app_crawler, AppCrawler.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
-  password: "ubuntu",
+  password: "",
   database: "app_crawler_dev",
   hostname: "localhost",
   pool_size: 10
